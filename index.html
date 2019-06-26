@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Weather forecast</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="wrap">
-        <div class="Location">
-          <h1>City</h1>
-          <span>Icon</span>
-        </div>
-        <div class="Temp">
-          <p1>30</p1>
-          <p2>C</p2>
-          <p3>It's cold</p3>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather forecast</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="location">
+      <h1 class="timezone">Timezone</h1>
+      <canvas class = "icon" width="118" height="118"></canvas>
     </div>
-    <script src="myscript.js"></script>
-  </body>
+    <div class="temp">
+      <div class="degree">
+        <h1 class="temperature" >30</h1>
+        <span>F</span>
+      </div>
+      <p3 class="description">It's warm</p3>
+    </div>
+    <div class="powered">
+      <h1>Powered by Dark Sky</h1>
+    </div>
+  </div>
+  <!-- Add "Powered by Dark Sky" Don't forget!!!! -->
+  
+  <script src="skycons.js"></script>
+  <script src="myscript.js"></script>
+</body>
+
+
 </html>
+

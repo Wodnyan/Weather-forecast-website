@@ -1,20 +1,17 @@
-  *{
+  * {
     margin: 0;
     padding: 0;
-  }
-
-  body, html{
-    height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
     box-sizing: border-box;
   }
 
-  body{
-    background: linear-gradient(#36d1dc,#5b86e5);
+  body, html {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: linear-gradient(#36d1dc, #5b86e5);
   }
 
-  .wrap{
+  .wrap {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -22,10 +19,38 @@
     flex-direction: column;
   }
 
-  .Location, .Temp{
+  .location, .temp {
     height: 30vh;
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
   }
+
+
+  .temp {
+    flex-direction: column;
+   
+  }
+
+  .temp p3 {
+    font-size: 20px;
+  }
+
+  .degree {
+    display: flex;
+    
+  }
+
+  .degree h1 {
+    font-size: 25px;
+  }
+  
+  .degree span{
+    font-size: 18px;
+  }
+  
+  .temperature{
+    cursor: pointer;
+  }
+  
